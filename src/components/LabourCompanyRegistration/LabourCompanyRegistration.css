@@ -1,0 +1,127 @@
+.header00011 {
+  text-align: center;
+  color: rgba(10, 87, 157, 1);
+  margin-left: 100px;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-top: 45px;
+}
+
+.header_text00011 {
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  color: rgba(9, 132, 246, 1);
+}
+
+.container00011 {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.input00011 {
+  margin-left: 200px;
+  width: 476px;
+  height: 55px;
+  border-radius: 10px;
+  border: 1px solid #b0c7c1;
+  margin-bottom: 15px;
+}
+
+.Label00011 {
+  width: 223px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.col {
+  max-width: 50%;
+}
+
+.inputr00011 {
+  margin-left: 80px;
+  width: 476px;
+  height: 55px;
+  border-radius: 10px;
+  border: 1px solid #b0c7c1;
+  margin-bottom: 15px;
+}
+
+.Labelr00011 {
+  width: 223px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.newbtn11 {
+  margin-top: 30px;
+  background: linear-gradient(0deg, #2beb0c, #2beb0c);
+  width: 150px;
+  height: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-left: 120px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 920px) {
+  .header00011 {
+    margin-left: 0px;
+  }
+  .container00011 {
+    margin-left: 0px;
+  }
+  .col {
+    max-width: 100%;
+  }
+  .inputr00011 {
+    margin-left: 200px;
+  }
+  .Labelr00011 {
+    margin-bottom: 10px;
+  }
+  .Label00011 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header00011 {
+    margin-left: 0px;
+    font-size: 16px;
+  }
+  .header_text00011{
+    padding-bottom: 5px;
+    margin: 7px;
+  }
+  .container00011 {
+    margin-left: 0px;
+  }
+  .col {
+    max-width: 100%;
+  }
+  .inputr00011 {
+    margin-left: 50px;
+    width: 300px;
+    margin-bottom: 25px;
+    padding-right: 0px;
+  }
+  .input00011 {
+    margin-left: 50px;
+    width: 300px;
+    margin-bottom: 25px;
+    padding-right: 0px;
+  }
+  .newbtn11 {
+    width: 200px;
+    padding: 2px;
+  }
+}

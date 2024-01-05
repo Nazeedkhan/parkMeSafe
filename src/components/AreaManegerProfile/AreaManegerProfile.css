@@ -1,0 +1,81 @@
+@media screen and (max-width: 600px) {
+    .form-padding-12 {
+        padding: 30px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .form-padding-12 {
+        padding: 2vw;
+    }
+}
+
+.delete-toggle-12 {
+    cursor: pointer;
+}
+
+
+
+.profile-page-btn-12 {
+    background-color: rgba(214, 252, 208, 1);
+    width: 150px;
+}
+
+.profile-page-btn-12:hover {
+    background-color: rgb(178 237 169);
+}
+
+.area-maneger-edit-btn {
+    background-color: rgba(43, 235, 12, 0.7);
+    color: white;
+}
+
+.area-maneger-edit-btn:hover {
+    background-color: rgb(37 201 11 / 84%);
+    color: white;
+}
+
+.traking-wide-12 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Modal Search */
+
+#myInput {
+    /* background-image: url('/css/searchicon.png'); */
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+}
+
+.disable-12 {
+    pointer-events: none;
+    opacity: 0.4;
+}

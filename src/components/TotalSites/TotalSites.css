@@ -1,0 +1,16 @@
+@media screen and (max-width: 500px) {
+    #TotalSite-heading-div-11 {
+        border-bottom: 1px solid #59599d;
+    }
+
+     .TotalSite_button_11{
+        width: 200px;
+        margin-left: 90px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    #TotalSite-heading-11 {
+        border-bottom: 1px solid #59599d;
+    }
+}

@@ -1,0 +1,63 @@
+.advertise-title-10 {
+  text-align: center;
+
+  width: 7em;
+  height: 3em;
+  background: #d6fcd0;
+  border-radius: 10px;
+  padding-top: 0.875em;
+  padding-bottom: 0.875em;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+.upload-10{
+  height: auto!important;
+}
+
+.advertise-box-10 {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.advertise-upload-10 {
+  padding-top: 25px;
+  padding-bottom: 11px;
+  width: 13vw;
+  margin: 6rem auto;
+  border: 5px dashed #bebebe;
+}
+
+.advertise-upload-10 button {
+  background: #c4c4c4;
+  border-radius: 8px;
+  width: 10vw;
+}
+
+@media screen and (max-width: 990px) {
+  .advertise-upload-10 button {
+    width: 10vw!important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .advertise-title-10 {
+    width: 40vw;
+  }
+
+  .advertise-upload-10 {
+    width: 40vw;
+  }
+
+  .advertise-upload-10 button {
+    width: 35vw!important;
+  }
+}

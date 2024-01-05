@@ -1,0 +1,16 @@
+@media screen and (max-width: 500px) {
+  #LabourList-heading-div-11 {
+    border-bottom: 1px solid #59599d;
+  }
+
+  .LabourList-button11 {
+    width: 180px;
+    margin-left: 70px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #LabourList-heading-11 {
+    border-bottom: 1px solid #59599d;
+  }
+}

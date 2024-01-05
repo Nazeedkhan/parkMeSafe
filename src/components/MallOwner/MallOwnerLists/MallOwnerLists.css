@@ -1,0 +1,237 @@
+@media screen and (max-width: 992px) {
+  .searchbox13 {
+    width: 100%;
+  }
+  .responsiveButton13 {
+    width: 100%;
+  }
+
+  .container a {
+    font-size: 12px;
+  }
+}
+.responsiveBtn1 {
+  font-size: x-small;
+  padding: 4px;
+  width: 6.5vw;
+  border-radius: 12px;
+  background-color: rgb(43, 235, 12);
+  font-weight: 800;
+}
+
+.borderBoxMallOwnerLists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20vw;
+}
+
+.datepicker-toggle {
+  display: inline-block;
+  position: relative;
+  width: 18px;
+  height: 19px;
+}
+
+.datepicker-toggle-button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml;base64,...");
+}
+
+.fa {
+  position: absolute;
+  right: 25px;
+  top: 11px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 600px) {
+  .d-flex-block {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .d-flex-block {
+    display: flex;
+  }
+}
+
+/* Filter Div */
+
+@media screen and (max-width: 600px) {
+  .filter-div {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filter-and-dropdown {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .filter-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Table */
+
+.fixTableHead {
+  overflow-y: auto;
+  height: 350px;
+}
+
+.fixTableHead thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background: #d6fcd0;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+}
+/* Calender */
+
+@media screen and (max-width: 600px) {
+  .calender {
+    width: 120px;
+  }
+
+  .stop-margin {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 980px) {
+  .borderBoxMallOwnerLists {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .respBtn1 {
+    font-size: x-small;
+    padding: 5px;
+    width: 22vw;
+    border-radius: 12px;
+    background-color: rgb(43, 235, 12);
+    font-weight: 800;
+  }
+
+  .extending {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .calender {
+    width: 16vw;
+  }
+
+  .stop-margin {
+    margin-left: 40px;
+  }
+}
+
+.color-change {
+  background-color: rgba(214, 252, 208, 1);
+}
+
+.searchbar13 {
+  display: flex;
+  width: 25vw;
+  box-shadow: 3px 3px 10px 0px #8888;
+}
+
+.searching13 {
+  justify-content: space-between;
+  width: 45%;
+}
+
+form1 {
+  color: #555;
+  display: flex;
+  padding: 2px;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  justify-content: flex-end;
+  border-radius: 12px;
+  border-color: white;
+  box-shadow: 1px 3px grey;
+}
+
+.search13 {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  width: 100%;
+}
+
+.placebox13 placeholder {
+  color: #bbb;
+}
+
+.placebox13 {
+  width: 100%;
+}
+.buttonSearch13 {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat center;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.buttonSearch13:hover {
+  opacity: 1;
+}
+
+.buttonSearch13:focus,
+.search13:focus {
+  box-shadow: 0 0 3px 0 #1183d6;
+  border-color: #1183d6;
+  outline: none;
+}
+
+.searchingBar13 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
